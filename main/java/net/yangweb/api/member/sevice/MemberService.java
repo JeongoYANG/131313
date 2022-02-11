@@ -15,12 +15,10 @@ package net.yangweb.api.member.sevice;
  * 2022-02-11         yangjeongo        최초 생성
  */
 public interface MemberService {
-    String memId(MemberService memId);
-    String memName(MemberService memName);
-    int memNumber(MemberService memNumber);
-    String addr(MemberService addr);
-    String phone1(MemberService phone1);
-    String phone2(MemberService phone2);
-    int height(MemberService height);
-    String debutDate(MemberService debutDate);
+     String memList();
+     String memInform();
+     int sendList();
+     String mailList();
+     String reserve();
+     String reserveList();
 }
