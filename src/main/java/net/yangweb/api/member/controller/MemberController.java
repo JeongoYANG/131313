@@ -1,9 +1,9 @@
 package net.yangweb.api.member.controller;
 
 import lombok.RequiredArgsConstructor;
-import net.yangweb.api.member.domain.MemberDTO;
 import net.yangweb.api.member.sevice.MemberService;
 import org.springframework.web.bind.annotation.*;
+
 
 /**
  * packageName: net.yangweb.api.commom.member.controller
@@ -35,6 +35,4 @@ public class MemberController {
         System.out.println(" 리액트에서 넘어온 몸무게: "+weight);
         return "BMI 는 정상";
     }
-
-
 }
